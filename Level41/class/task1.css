@@ -1,0 +1,50 @@
+
+
+
+div {
+    border-radius: 9px;
+    margin: 500px;
+    width: 80px;
+    height: 50px;
+    background-color: aqua;
+    text-align: center;
+    font-family: cursive;
+
+    animation-name: css;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-direction:alternate;
+    animation-timing-function: ease-in;
+    animation-delay: 0.1s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes css {
+    0% {
+        background-color: aqua;
+    }
+
+    20% {
+        background-color: black;
+        transform: rotate(250deg) 
+    }
+    40% {
+        background-color: brown;
+        transform:  translate(250px);
+    }
+
+    60% {
+        background-color: cyan;
+        transform: rotate(180deg) ;
+    }
+    80% {
+        background-color: chartreuse;
+        transform: translate(250px) ;
+    }
+
+    100% {
+        background-color: blueviolet;
+        transform: rotate(360deg);
+    }
+}

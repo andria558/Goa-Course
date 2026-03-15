@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>task1</title>
+
+  <style>
+    #myBox {
+      background-color: orange;
+      transition: width 0.3s, height 0.3s;
+      margin: 200px 0px 0px 600px;
+    }
+
+    button {
+      border: 3px dashed black;
+      height: 40px;
+      width: 200px;
+      background-color: teal;
+      font-size: 14px;
+      color: whitesmoke;
+
+    }
+
+    .btndiv {
+      margin: 100px 0px 0px 490px;
+    }
+
+    .normal {
+      width: 200px;
+      height: 200px;
+    }
+
+    .big {
+      width: 300px;
+      height: 300px;
+    }
+
+    .small {
+      width: 100px;
+      height: 100px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="btndiv">
+    <button onclick="increaseSize()">increaseSize</button>
+
+    <button onclick="decreaseSize()">decreaseSize</button>
+  </div>
+
+
+  <div id="myBox" class="normal"></div>
+
+  <script src="task1.js"></script>
+</body>
+
+</html>

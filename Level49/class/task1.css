@@ -1,0 +1,92 @@
+
+@media (min-width:376px){
+
+    header {
+        width: 100%;
+        height: 100px;
+        background-color: rgba(25, 3, 3, 0.896);
+        font-family: 'Courier New', Courier, monospace;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    img {
+        width: 350px;
+        height: 280px;
+        border-radius: 5%;
+        border: 1px solid black;
+        box-shadow: 1px 1px 5px;
+        margin: 10px;
+    }
+
+    p {
+        margin-top: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font: bolder;
+    }
+
+    .div2 {
+        width: 500px;
+        margin-left: 300px;
+    }
+
+    .div3 {
+        display: flex;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:376px) {
+    header {
+        height: 50px;
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+        background-color: rgba(25, 3, 3, 0.896);
+        font-family: 'Courier New', Courier, monospace;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .div1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    img {
+        width: 95%;
+        height: 280px;
+        border-radius: 5%;
+        border: 1px solid black;
+        box-shadow: 1px 1px 5px;
+    }
+
+    .div2 p {
+        font-family:Arial, Helvetica, sans-serif;
+        line-height: 1.2rem;
+        margin-left: 15px;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+
+    .div2 {
+        width: 354px;
+    }
+}

@@ -1,0 +1,14 @@
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(pattern-background-desktop.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  background-color: hsl(225, 100%, 94%);
+}

@@ -1,0 +1,44 @@
+<div class="p-4 bg-blue-500 text-white rounded-lg shadow-md">
+  <!-- p-4 → padding: 1rem (შიდა დაშორება) -->
+  <!-- bg-blue-500 → ფონური ფერი: ლურჯი (500 ინტენსივობა) -->
+  <!-- text-white → ტექსტის ფერი: თეთრი -->
+  <!-- rounded-lg → კუთხეების მომრგვალება (დიდი ზომა) -->
+  <!-- shadow-md → ჩრდილი საშუალო სიმძლავრით -->
+  
+  <h1 class="text-2xl font-bold mb-2">
+    <!-- text-2xl → ტექსტის ზომა: Extra Large -->
+    <!-- font-bold → ტექსტის სისქე: Bold -->
+    <!-- mb-2 → margin-bottom: 0.5rem -->
+    Tailwind CSS მაგალითი
+  </h1>
+  
+  <p class="text-sm leading-relaxed">
+    <!-- text-sm → ტექსტის ზომა: პატარა -->
+    <!-- leading-relaxed → ხაზთაშორისი დაშორება: ოდნავ გაზრდილი -->
+    ეს არის Tailwind-ის კლასების გამოყენების მაგალითი კომენტარებით.
+  </p>
+  
+  <button class="mt-4 px-3 py-2 bg-green-600 hover:bg-green-700 text-white rounded">
+    <!-- mt-4 → margin-top: 1rem -->
+    <!-- px-3 → padding-horizontal: 0.75rem -->
+    <!-- py-2 → padding-vertical: 0.5rem -->
+    <!-- bg-green-600 → ღილაკის ფონური ფერი: მწვანე -->
+    <!-- hover:bg-green-700 → hover-ზე ფერი უფრო მუქი მწვანე -->
+    <!-- text-white → ტექსტის ფერი: თეთრი -->
+    <!-- rounded → მომრგვალებული კუთხეები -->
+    ღილაკი
+  </button>
+</div>
+
+---
+
+### 🔑 ძირითადი Tailwind CSS საკითხები კომენტარებით
+- **Spacing (padding/margin)** → `p-4`, `m-2`, `px-3`, `py-2`  
+- **Colors** → `bg-blue-500`, `text-white`, `hover:bg-green-700`  
+- **Typography** → `text-sm`, `text-2xl`, `font-bold`, `leading-relaxed`  
+- **Borders & Radius** → `rounded`, `rounded-lg`, `border`, `border-gray-300`  
+- **Shadows** → `shadow-sm`, `shadow-md`, `shadow-lg`  
+- **Flex/Grid** → `flex`, `justify-center`, `items-start`, `grid`, `grid-cols-3`  
+- **Responsive** → `sm:text-sm`, `md:text-lg`, `lg:text-xl`  
+
+👉 Tailwind-ში ყოველი კლასი პირდაპირ CSS-ის თვისებას შეესაბამება, და შეგიძლია კომენტარებით მარტივად ახსნა, როგორც ზემოთ.

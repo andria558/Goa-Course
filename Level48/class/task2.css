@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+
+    height: 100vh;
+}
+
+header, aside,section , main, footer {
+    grid-template-areas: 
+    'aside header header header'
+    'aside sect1 sect2 sect3'
+    'aside main main main'
+    'aside footer footer footer'
+    ;
+    padding: 20px;
+    height: 100vh;
+}
+
+header {
+    grid-area: header;
+    background-color: skyblue;
+}
+
+
+aside {
+    grid-area: aside;
+    background-color: teal;
+}
+
+.a {
+    grid-area: sect1;
+    background-color: lightgray;
+}
+
+.b {
+    grid-area: sect2;
+    background-color: darkgray;
+}
+
+.c {
+    grid-area: sect3;
+    background-color: teal;
+}
+main {
+    grid-area: main;
+    background-color: lightgray;
+}
+footer {
+    grid-area: footer;
+    background-color: blue;
+
+}

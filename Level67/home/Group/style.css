@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@300;400;600;700;800&family=Quattrocento+Sans:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Header --------------------------*/
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.01);
+  transition: background-color 0.6s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  z-index: 1000;
+}
+
+.header a img {
+  width: 150px;
+  height: auto;
+  transition: all 0.6s;
+}
+
+.nav-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: #FF5B00;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Scrolled state */
+.scrolled {
+  background-color: rgba(255, 89, 0, 0.4);
+}
+
+.imgwrap {
+  width: 120px !important;
+}
+
+/* Hero Section --------------------------*/
+.hero {
+  padding-top: 100px;
+}
+
+.row {
+  text-align: center;
+  padding: 20px;
+}
+
+.MainTitle {
+  margin-bottom: 20px;
+}
+
+.h2-MainTitle {
+  font-family: 'Arvo', serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #F26522;
+  margin-bottom: 20px;
+}
+
+.MainImage a img {
+  width: 100%;
+  height: auto;
+  max-width: 1120px;
+  border-radius: 8px;
+}
+
+.JoinMeniu {
+  margin: 20px auto;
+}
+
+.subTitle h3 {
+  font-family: 'Arvo', serif;
+  font-size: 36px;
+  color: #FF5900;
+  margin-bottom: 15px;
+}
+
+.MainjoinButton button {
+  color: #FFFFFF;
+  background-color: #FF5900;
+  font-family: 'Arvo', serif;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.MainjoinButton button:hover {
+  background-color: #e04e1b;
+}
+
+.hr1 {
+  width: 80%;
+  margin: 40px auto;
+  border: none;
+  border-top: 1px solid grey;
+}
+
+/* Challenges Section -------------------------------------------------*/
+.challenges-section {
+  padding: 40px 0;
+}
+
+.containerI {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.challenge-box {
+  background: #fff;
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.challenge-box a img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.challenge-box button {
+  margin-top: 15px;
+  width: 80%;
+  padding: 10px;
+  background: #EE1C25;
+  color: #FFFFFF;
+  font-family: 'Arvo', serif;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.challenge-box button:hover {
+  background: #c9161f;
+}
+
+/* About Section   -------------------------------------------*/
+.about-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.aboutproggramsandchallangesmainheader {
+  color: #F26522;
+  font-family: 'Arvo', serif;
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.AboutProgramsAndChallanges {
+  background: url('images/AboutChallangesAndProgramsBackground.jpg') center/cover no-repeat;
+  padding: 60px 20px;
+  border-radius: 8px;
+  margin: 0 auto 40px;
+  max-width: 960px;
+}
+
+.p32,
+.p31 {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #FFFFFF;
+  margin: 10px auto;
+  max-width: 800px;
+}
+
+/* Contact Section  -----------------------------------------*/
+.contact {
+  background: url('images/contactbackgroundimage.jpg') center/cover no-repeat;
+  padding: 60px 20px;
+  height: 180vh;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactImage {
+  width: 80%;
+  max-width: 400px;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.contactTxtImage {
+  text-align: center;
+  margin-top: 420px;
+  color: #FFFFFF;
+}
+
+.contactTxtImage hr {
+  width: 80%;
+  max-width: 400px;
+  border: none;
+  border-top: 2px solid #FFFFFF;
+  margin: 10px auto;
+}
+
+.contactTxtImage span {
+  font-size: 38px;
+  font-family: 'Arvo', serif;
+  letter-spacing: 5px;
+}
+
+.social-icons {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.social-icons i {
+  font-size: 32px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.social-icons i:hover {
+  color: #FF5B00;
+}
+
+/* Footer Section  -----------------------------------------*/
+footer {
+  background: rgb(0, 171, 128);
+  padding: 40px 20px;
+  color: #FFFFFF;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  flex: 1 1 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-column h3 {
+  font-family:'Lucida Sans', sans-serif;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.footer-column p {
+  margin-bottom: 15px;
+}
+
+.footer-column form input[type="text"],
+.footer-column form input[type="email"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.footer-column form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background: #e04e1b;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.footer-column img {
+  max-width: 100%;
+  margin: 10px auto;
+  display: block;
+}
+
+.footer-column .button-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.footer-column .button-group button,
+.footer-column button {
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background: transparent;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.footer-column .button-group button:hover,
+.footer-column button:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+/* Responsive Breakpoints  -------------------------------------------*/
+@media (max-width: 992px) {
+  .h2-MainTitle {
+    font-size: 42px;
+  }
+  .subTitle h3 {
+    font-size: 32px;
+  }
+  .MainjoinButton button {
+    font-size: 18px;
+  }
+  .nav-menu li a {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav-menu {
+    justify-content: center;
+  }
+  .MainTitle,
+  .row,
+  .JoinMeniu {
+    padding: 0 10px;
+  }
+  .h2-MainTitle {
+    font-size: 36px;
+  }
+  .subTitle h3 {
+    font-size: 28px;
+  }
+  .MainjoinButton button {
+    font-size: 16px;
+    width: 100%;
+  }
+  .hr1 {
+    width: 90%;
+  }
+  .AboutProgramsAndChallanges {
+    padding: 40px 10px;
+  }
+  .p32,
+  .p31 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 10px;
+  }
+  .nav-menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .h2-MainTitle {
+    font-size: 32px;
+  }
+  .subTitle h3 {
+    font-size: 24px;
+  }
+  .MainjoinButton button {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+  .AboutProgramsAndChallanges {
+    padding: 20px 10px;
+  }
+  .contactImage {
+    width: 90%;
+  }
+  .contactTxtImage span {
+    font-size: 24px;
+    letter-spacing: 3px;
+  }
+  .social-icons i {
+    font-size: 28px;
+  }
+}

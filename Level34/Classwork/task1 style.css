@@ -1,0 +1,57 @@
+
+a:link {
+    font-family: cursive;
+    text-decoration: none;
+    color: blue;
+}
+
+
+
+a:visited {
+    font-size: large;
+    font-family: monospace;
+    color: beige;
+}
+
+a:active {
+    color: aqua;
+    letter-spacing: 5px;
+    text-decoration: overline;
+}
+
+a:hover {
+    text-shadow: 0px 5px 5px blue;
+    font-size: small;
+    transition: 1s;
+}
+
+
+
+
+
+
+/* 
+a:link{
+    font-family: times;
+    text-decoration: underline;
+    color: white;
+}
+
+
+
+.a:visited {
+    font-size: medium;
+    font-family: cursive;
+    color: blueviolet;
+}
+
+a:active {
+    color: gray;
+    letter-spacing: 10px;
+    text-decoration: overline;
+}
+    
+a:hover {
+    text-shadow: 0px 5px 4px blue;
+    font-size: small;
+} */

@@ -1,0 +1,151 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+h1 {
+    font-size: 4.2rem;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    margin-bottom: 32px;
+}
+.top-hero p {
+    color: rgb(147, 123, 146);
+    font-size: 1.38rem;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.rate-text {
+    color: rgb(80, 32, 80);
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.icon {
+    width: 24px;
+    padding: 2px;
+}
+.top-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.bottom-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.top-img-mob, .bottom-img-mob {
+    display: none;
+}
+.container {
+    max-width: 1400px;
+    margin: auto 20px;
+}
+.top-hero {
+    display: flex;
+}
+.text {
+    width: 50%;
+    padding-right: 12%;
+}
+.rating {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.rate {
+    width: 600px;
+    display: flex;
+    gap:40px;
+    padding: 24px 40px;
+    margin: 10px 0;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 5px;
+    position: relative;
+}
+.top-rate {
+    margin-right: 100px;
+}
+.middle-rate {
+    margin-right: 50px;
+}
+.bottom-cards {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.card-container {
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    padding: 45px;
+    border-radius: 10px;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    margin-bottom: 25px;
+}
+.profile img {
+    width: 50px;
+    border-radius: 50%;
+}
+.name {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.verified {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: rgba(238, 104, 164, 0.75);
+}
+.card-container p {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.irene {
+    margin-top: 20px;
+}
+.anne {
+    margin-top: 40px;
+}
+.attribution {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    font-size: 12px;
+    text-align: center;
+  }
+  .attribution a {
+    color: rgb(62, 82, 163);
+  }

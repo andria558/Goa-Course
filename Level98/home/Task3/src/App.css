@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(249, 249, 249);
+}
+
+.wiki-app {
+  display: flex;
+  padding: 2rem;
+}
+
+.sidebar {
+  width: 200px;
+  padding-right: 2rem;
+}
+
+.sidebar h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: rgba(192, 186, 186, 0.921);
+  
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 0.5rem;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #0077cc;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  margin-left: 5rem;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.content h1 {
+  margin-top: 0;
+  font-size: 2rem;
+  color: #333;
+}
+
+.wiki-logo {
+  width: 120px;
+  margin: 1rem 0;
+}
+
+.content h2 {
+  color: #0077cc;
+  margin-top: 2rem;
+}
+
+.content p {
+  line-height: 1.6;
+  color: #555;
+}
+
+.content ul {
+  padding-left: 1.2rem;
+  color: #555;
+}

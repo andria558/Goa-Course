@@ -1,0 +1,58 @@
+body{
+    padding: 0px;
+    background-image: url(cssimg2.svg);
+    background-image: url(cssimg.svg);
+    background-color: aquamarine;
+    margin: 100px;
+    margin-left: 500px;
+}
+
+main{
+    background-color: white;
+    width: 350px;
+    height: 450px;
+    border-radius: 20px;
+}
+
+.pattern{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.image{
+    margin-left: 120px;
+    margin-top: -52px;
+    border-radius: 50px;
+    
+}
+.victor{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.london{
+    text-align: center;
+    font-weight: lighter;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: grey;
+
+}
+.hr{
+    width: 320px;
+    color: rgb(211, 210, 210);
+}
+.table{
+    margin-left: 25px;
+    width: 300px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px
+}
+
+.table1{
+    font-size: 15px;
+    color: grey;
+}

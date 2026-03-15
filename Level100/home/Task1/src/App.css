@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+:root {
+  --Green: hsl(75, 94%, 57%);
+
+  --White: hsl(0, 0%, 100%);
+
+  --Grey-700: hsl(0, 0%, 20%);
+
+  --Grey-800: hsl(0, 0%, 12%);
+
+  --Grey-900: hsl(0, 0%, 8%);
+}
+
+body {
+  background: var(--Grey-900);
+  font-family: 'Inter', sans-serif;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+
+.card {
+  background: var(--Grey-800);
+  border-radius: .75rem;
+  padding: 2rem;
+  margin: 1rem;
+  text-align: center;
+  color: var(--White);
+  max-width: 400px;
+}
+
+.card img {
+  margin-bottom: .5rem;
+  width: 75px;
+  border-radius: 50%;
+}
+
+.card h1 {
+  font-size: 1.75rem;
+}
+
+.card .location {
+  color: var(--Green);
+  margin: .5rem 0 1.5rem;
+  font-weight: 700;
+}
+
+.card ul {
+  margin-top: 1.75rem;
+}
+
+.card ul li:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.card ul li a {
+  display: block;
+  background: var(--Grey-700);
+  color: var(--White);
+  padding: 1rem;
+  font-weight: 600;
+  border-radius: .5rem;
+}
+
+.card ul li a:hover {
+  background: var(--Green);
+  color: var(--Grey-900);
+}

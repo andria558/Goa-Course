@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: grid;
+    grid-template-areas:
+    'd1 d1 d1'
+    'd2 d3 d3'
+    'd4 d4 d4';
+    height: 100vh;
+    gap: 8px;
+    grid-template-columns: 300px auto auto;
+    grid-template-rows: 200px auto 200px;
+}
+
+
+.div1 {
+    grid-area: d1;
+    background-color: orange;
+    border: 1px solid black;
+
+}
+
+
+.div2 {
+    grid-area: d2;
+    background-color: cyan;
+    border: 1px solid black;
+}
+
+.div3 {
+    grid-area: d3;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.div4 {
+    grid-area: d4;
+    background-color: aqua;
+    border: 1px solid black;
+}

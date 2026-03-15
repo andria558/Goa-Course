@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f5f5;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  min-width: 1500px;
+}
+
+.card {
+  display: flex;
+  background: linear-gradient(135deg, #b3d9f2 0%, #a8cfe8 100%);
+  border-radius: 30px;
+  padding: 60px;
+  max-width: 900px;
+  width: 100%;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  gap: 60px;
+}
+
+/* Left Section */
+.left-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left-section h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #1a1a4d;
+  margin-bottom: 40px;
+  line-height: 1.2;
+}
+
+.app-store-btn {
+  background: #1a1a4d;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: fit-content;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.app-store-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.apple-icon {
+  font-size: 20px;
+}
+
+/* Right Section */
+.right-section {
+  flex: 1;
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.date-header {
+  font-size: 14px;
+  color: #999;
+  font-weight: 500;
+}
+
+.calories-display {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.calories-number {
+  font-size: 42px;
+  font-weight: 700;
+  color: #1a1a4d;
+}

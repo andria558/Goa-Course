@@ -1,0 +1,73 @@
+* {
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --x:black;
+    --x1:yellow;
+    --x2: 8px;
+    --x3: 3px;
+    --x4: inline;
+    --x5: block;
+    --x6: inline-block;
+    --x7: 5px;
+    --x8: 100px;
+    --x9: relative;
+    --x10: scale(1.5);
+    --x11: 2s;
+}
+
+
+h1 {
+    color: var(--x);
+    background-color: var(--x1);
+    font-size: var(--x2);
+    letter-spacing: var(--x3);
+    display: var(--x4);
+    display: var(--x5);
+    display: var(--x6);
+    padding: var(--x7);
+    margin: var(--x8);
+    position: var(--x9);
+    transform: var(--x10);
+    transition: var(--x11);
+}
+
+p {
+    color: var(--x);
+    background-color: var(--x1);
+    font-size: var(--x2);
+    letter-spacing: var(--x3);
+    display: var(--x4);
+    display: var(--x5);
+    display: var(--x6);
+    padding: var(--x7);
+    margin: var(--x8);
+    position: var(--x9);
+    transform: var(--x10);
+    transition: var(--x11);
+}
+
+span {
+    color: var(--x);
+    background-color: var(--x1);
+    font-size: var(--x2);
+    letter-spacing: var(--x3);
+    display: var(--x4);
+    display: var(--x5);
+    display: var(--x6);
+    padding: var(--x7);
+    margin: var(--x8);
+    position: var(--x9);
+    transform: var(--x10);
+    transition: var(--x11);
+}
+
+
+
+body {
+    
+    background-image: linear-gradient(to right red 0% 50%, blue 50% 100%);
+}

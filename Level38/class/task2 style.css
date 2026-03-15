@@ -1,0 +1,14 @@
+.btn1 {
+    -webkit-font-feature-settings: "liga" off, "dlig";
+    font-feature-settings: "liga" off, "dlig";
+}
+
+.btn2 {
+    -webkit-filter: grayscale(50%);
+    filter: grayscale(50%);
+}
+
+.btn3 {
+    -webkit-box-reflect: below 5px url(mask.png);
+    -box-reflect: below 5px url(mask.png);
+}

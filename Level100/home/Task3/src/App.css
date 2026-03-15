@@ -1,0 +1,123 @@
+/* styles.css */
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+strong {
+  cursor: pointer;
+}
+
+strong:hover {
+  color: rgb(13, 244, 244);
+}
+
+h1 {
+  cursor: pointer;
+}
+
+h1:hover {
+  color: rgb(13, 244, 244);
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 15px;
+  padding: 24px;
+  max-width: 350px;
+  box-shadow: 0 25px 40px rgba(0, 0, 0, 0.5);
+  color: hsl(0, 0%, 100%);
+  margin: .5rem;
+}
+
+.card-image {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.card-image img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: hsla(178, 100%, 50%, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.overlay img {
+  width: 75px;
+}
+
+.card-image:hover .overlay {
+  opacity: 1;
+}
+
+h1 {
+  font-size: 1.4rem;
+  margin: 0 0 12px;
+}
+
+.description {
+  color: hsl(215, 51%, 70%);
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+}
+
+.price {
+  color: hsl(178, 100%, 50%);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.time-left {
+  color: hsl(215, 51%, 70%);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid hsl(215, 32%, 27%);
+  margin-bottom: 20px;
+}
+
+.creator {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.9rem;
+  color: hsl(215, 51%, 70%);
+}
+
+.avatar {
+  width: 32px;
+  border: 1px solid white;
+  border-radius: 50%;
+}

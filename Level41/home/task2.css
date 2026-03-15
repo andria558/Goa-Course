@@ -1,0 +1,40 @@
+div {
+    position: relative;
+    transition: 2s;
+    background-color: rgb(255, 0, 0);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+
+    animation-name: movebox;
+    animation-duration: 5s;
+    animation-delay: 0s;
+}
+
+@keyframes movebox {
+
+    0% {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    25% {
+        margin-left: 1300px;
+        margin-top: 0px;
+    }
+
+    50% {
+        margin-left: 1300px;
+        margin-top: 500px;
+    }
+
+    75% {
+        margin-left: 0px;
+        margin-top: 500px;
+    }
+
+    100% {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+}

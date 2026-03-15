@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(pink, red, yellow, white, purple);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family:   'Arial Narrow Bold', sans-serif;
+}
+
+
+.box {
+    width: 400px;
+    height: 710px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+input {
+    width: 80%;
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 50px;
+    box-shadow: -1px 1px 15px gray;
+}
+
+
+::placeholder {
+    padding-left: 15px;
+    color: black;
+    font-weight: 800;
+}
+
+
+button {
+    margin-top: 50px;
+    width: 180px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: hsl(300, 95%, 31%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    font-weight: 400;
+    
+}
+
+
+.orsign {
+    margin-top: 30px;
+    color: grey;
+    font-size: 17px;
+}
+
+img {
+    width: auto;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.ggl {
+    border-radius: 40%;
+}
+
+#class {
+    position: absolute;
+    bottom: 40px;
+    left: 745px;
+    color: grey;
+    text-decoration: none;
+}

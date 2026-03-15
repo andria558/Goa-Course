@@ -1,0 +1,19 @@
+.div-1 {
+    width: 259px;
+    height: 260px;
+    border: 10px solid chocolate;
+    border-radius: 20%;
+    background-color: aqua;
+
+    margin: 200px 0 50px 300px;
+}
+
+.div-2 {
+    width: 259px;
+    height: 260px;
+    border: 10px solid aqua;
+    border-radius: 20%;
+    background-color: chocolate;
+
+    margin: 250px 0 60px 255px;
+}

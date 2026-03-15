@@ -1,0 +1,24 @@
+ /* uppercase - მთლიან ტექსტს ხდის დიდი ასოებით დაწერიილს.     */
+ #Header-1 {
+    text-transform: uppercase;
+}
+
+/* overline - ტექსტს ზემოთ ავლებს ხაზს. */
+#Header-2 {
+    text-decoration: overline;
+}
+
+/* center - ტექსტს მოაქცევს შუა ნაწილში. */
+#Header-3 {
+    text-align: center;
+}
+
+/* 10px - x ღერძზე ამოძრავებს ჩრდილს. */
+#Header-4 {
+    text-shadow: 10px 20px 30px;
+}
+
+/* normal - ასობგერებს შორის ჩვეულებრივ დაშორებას აკეთებს. */
+#Header-5 {
+    letter-spacing: normal;
+}

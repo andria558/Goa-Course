@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 13px;
+  background-color: cornsilk;
+}
+
+button {
+  cursor: pointer;
+  transition: background-color .3s ease;
+}
+

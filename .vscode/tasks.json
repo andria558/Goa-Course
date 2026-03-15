@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Create JS Task",
+      "type": "shell",
+      "command": "node",
+      "args": ["${workspaceFolder}/create-task-file.js", "js"],
+      "options": {
+        "cwd": "${fileDirname}"
+      }
+    },
+    {
+      "label": "Create HTML Task",
+      "type": "shell",
+      "command": "node",
+      "args": ["${workspaceFolder}/create-task-file.js", "html"],
+      "options": {
+        "cwd": "${fileDirname}"
+      }
+    },
+    {
+      "label": "Create CSS Task",
+      "type": "shell",
+      "command": "node",
+      "args": ["${workspaceFolder}/create-task-file.js", "css"],
+      "options": {
+        "cwd": "${fileDirname}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+.div1,.div2,.div3 {
+    width: 200px;
+    height: 150px;
+    background: coral;
+    border: 2px solid yellow;
+    font-family: cursive;
+    text-align: center;
+
+    display: inline;
+}
+
+.h1 {
+    font-family: cursive;
+    text-align: center;
+    font-size: larger;
+    display: inline;
+}
+
+.p1 {
+    font-family: cursive;
+    text-align: center;
+    font-size: larger;
+    display: inline;
+}
+
+
+.div4,.div5,.div6 {
+    width: 200px;
+    height: 150px;
+    background: coral;
+    border: 2px solid yellow;
+    font-family: cursive;
+    text-align: center;
+
+    display: inline-block;
+}
+
+.h2 {
+    font-family: cursive;
+    text-align: center;
+    font-size: 2em;
+    display: inline-block;
+
+}
+
+.p2 {
+    font-family: cursive;
+    text-align: center;
+    font-size: 2em;
+    display: inline-block;
+}
+
+
+.img1 {
+    width: 200px;
+    height: 150px;
+    display: block;
+}
+
+.btn1 {
+    font-family: cursive;
+    text-align: center;
+    font-size: 2em;
+    display: block;
+}
+
+.inp1 {
+    font-family: cursive;
+    text-align: center;
+    font-size: 2em;
+    display: block;
+}

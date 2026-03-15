@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: hsl(315, 63%, 63%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    margin-left: 70px;
+}
+
+input {
+    height: 50px;
+    width: 240px;
+}
+
+input[type='tel'] {
+    width: 90%;
+}
+
+::placeholder {
+    padding: 15px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 26px;
+    width: 120px;
+    height: 50px;
+    margin-left: 194px;
+    margin-top: 30px;
+}
+
+textarea {
+    width: 90%;
+    height: 150px;
+}
+
+.box {
+    background-color: white;
+    width: 630px;
+    height: 680px;
+}
+
+.box h2 {
+    margin-top: 20px;
+    margin-left: 193px;
+}
+
+.lastname {
+    margin-left: 20px;
+}
+
+.name,.massage,.tel,.email {
+    font-size: 12px;
+
+}
+
+.emailinp {
+    width: 90%;
+}

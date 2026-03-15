@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+    'side head head sec1'
+    'side sec2 sec3 nav'
+    'side sec4 sec5 nav';
+    gap: 5px;
+    grid-template-columns: 155px 1fr 1fr 155px;
+    grid-template-rows: 100px auto auto;
+}
+
+
+
+header {
+    grid-area: head;
+    background-color: rgb(108, 191, 77);
+    border: 2px solid black;
+    border-radius: 3px;
+    text-align: center;
+    
+}
+
+aside {
+    grid-area: side;
+    background-color: rgb(108, 191, 77);
+    border: 2px solid black;
+    border-radius: 3px;
+    text-align: center;
+    
+}
+
+.sec1 {
+    grid-area: sec1;
+    background-color: rgb(236, 52, 54);
+    border: 2px solid black;
+    border-radius: 3px;
+    text-align: center;
+    
+}
+
+.sec2 {
+    grid-area: sec2;
+    background-color: rgb(250, 177, 46);
+    border: 2px solid black;
+    border-radius: 3px;
+    text-align: center;
+    
+}
+
+.sec3 {
+    grid-area: sec3;
+    background-color: rgb(236, 52, 54);
+    border: 2px solid black;
+    border-radius: 3px;
+    text-align: center;
+    
+}
+
+.sec4 {
+    grid-area: sec4;
+    background-color: rgb(236, 52, 54);
+    border: 2px solid black;
+    border-radius: 3px;
+    text-align: center;
+    
+}
+.sec5 {
+    grid-area: sec5;
+    background-color: rgb(250, 177, 46);
+    border: 2px solid black;
+    border-radius: 3px;
+    text-align: center;
+    
+}
+
+nav {
+    grid-area: nav;
+    background-color: rgb(108, 191, 77);
+    border: 2px solid black;
+    border-radius: 3px;
+    text-align: center;
+    
+}
+
+

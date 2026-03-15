@@ -1,0 +1,24 @@
+1. Utility-First Classes
+მცირე, კონკრეტული კლასები: მაგ. text-center, mt-4, bg-red-500.
+კომბინაცია: რამდენიმე კლასის გაერთიანებით ქმნი კომპონენტს და სტილავ.
+------------------------------
+
+2. Responsive Design
+Mobile-first მიდგომა: breakpoints (sm:, md:, lg:, xl:).
+მაგალითი:
+
+html
+<div class="text-sm md:text-lg lg:text-xl">Responsive Text</div>
+-----------------------------------------
+
+3. Performance Optimization
+Tailwind automatically removes unused CSS (purge), რაც ამცირებს ფაილის ზომას და აჩქარებს საიტს. 
+----------------------------------------------------
+
+4. Dark Mode Support
+მარტივად შეგიძლია დაამატო dark mode:
+
+html
+<div class="bg-white dark:bg-gray-900 text-black dark:text-white">
+  Dark Mode Section
+</div>

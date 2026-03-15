@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'nav main aside'
+    'nav footer footer';
+    grid-template-columns: 100px 5fr 100px;
+    grid-template-rows: 100px 4fr 100px;
+    height: 100vh;
+}
+
+
+header,nav,aside,main,footer {
+    border: 1px solid skyblue;
+    background-color: teal;
+    padding: 15px;
+}
+
+header {
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav;
+}
+
+main {
+    grid-area: main;
+}
+
+aside {
+    grid-area: aside;
+}
+
+footer {
+    grid-area: footer;
+}

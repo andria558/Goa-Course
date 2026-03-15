@@ -1,0 +1,60 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,td {
+    padding: 20px;
+}
+
+
+.td1 {
+    word-spacing: 25em;
+    color: rgb(37, 91, 126);
+}
+
+.google {
+    color: rgb(177, 83, 103);
+}
+
+.twitter {
+    color: rgb(177, 83, 103);
+}
+
+.amazon {
+    color: rgb(177, 83, 103);
+}
+
+.linkedin {
+    color: rgb(177, 83, 103);
+}
+
+.codepen {
+    color: rgb(177, 83, 103);
+
+}
+
+.github {
+    color: rgb(169, 81, 101);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(31, 39, 57);
+}
+
+tr:nth-child(4) {
+    background-color: rgb(50, 60, 80);
+}
+
+tr:nth-child(6) {
+    background-color: rgb(50, 60, 80);
+}
+
+.tr1 {
+    background: rgb(70, 74, 82);
+}
+
+.yellow-td {
+    background-color: rgb(255, 248, 66);
+}
+

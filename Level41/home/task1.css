@@ -1,0 +1,41 @@
+* {
+    margin: 100px;
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    animation: shrink 2s forwards; 
+}
+
+
+@keyframes expand {
+    from {
+        width: 200px;
+    }
+    to {
+        width: 400px;
+    }
+}
+
+
+@keyframes shrink {
+    from {
+        width: 400px;
+    }
+    to {
+        width: 200px;
+    }
+}
+
+
+.box:hover {
+    animation: expand 2s forwards;
+}

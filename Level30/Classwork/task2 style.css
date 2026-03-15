@@ -1,0 +1,42 @@
+body {
+    background-color: aquamarine;
+}
+
+.div1 {
+    width: 400px;
+    height: 20px;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+
+.div2 {
+    width: 400px;
+    height: 20px;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.div3 {
+    width: 400px;
+    height: 20px;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.div4 {
+    width: 400px;
+    height: 20px;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+h1 {
+    color: white;
+}
+
+#body {
+    /* display: flex; */
+    background-color: black;
+    width: 1000px;
+    height: 500px;
+}

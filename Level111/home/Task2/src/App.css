@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+/* ^ - Weights: 400 - */
+/* Family: [Lexend Deca] */
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&display=swap');
+/* ^ - Weights: 700 - */
+/* Family: [Big Shoulders] */
+
+:root {
+  /* *Colors, Primary */
+
+  --Gold-500: hsl(31, 77%, 52%);
+
+  --Cyan-800: hsl(184, 100%, 22%);
+
+  --Green-950: hsl(179, 100%, 13%);
+
+  /** (paragraphs) */
+  --Transparent-white: hsla(0, 0%, 100%, 0.75);
+
+  /** (background, headings, buttons) */
+  --Gray-100: hsl(0, 0%, 95%);
+}
+
+.Card-box {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+  max-width: 800px;
+  min-height: 450px;
+}
+
+.card {
+  padding: 45px;
+}
+
+.card h1 {
+  font-family: 'Big Shoulders';
+  font-weight: 700;
+  color: var(--Gray-100);
+  padding-top: 25px;
+  font-size: 35px;
+}
+
+.card p {
+  line-height: 1.6;
+  margin-top: 35px;
+  font-family: 'Lexend Deca';
+  color: var(--Transparent-white);
+}
+
+.card button {
+  margin-top: 80px;
+  padding: 12px 24px;
+  border-radius: 50px;
+  border: 2px solid var(--Gray-100);
+  background: var(--Gray-100);
+  font-family: 'Lexend Deca';
+  font-weight: 400;
+}
+
+.card-1 {
+  background: var(--Gold-500);
+  border-radius: 5px 0 0 5px;
+}
+
+.card-2 {
+  background: var(--Cyan-800);
+}
+
+.card-3 {
+  background: var(--Green-950);
+  border-radius: 0 5px 5px 0;
+}
+
+.card-1 button {
+  color: var(--Gold-500);
+}
+
+.card-2 button {
+  color: var(--Cyan-800);
+}
+
+.card-3 button {
+  color: var(--Green-950);
+}
+
+button:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+/* Responsive */
+
+
+@media (max-width: 376px) {
+  .Card-box {
+    margin: 10px;
+  }
+
+  .cards {
+    flex-direction: column;
+    max-width: 300px;
+  }
+
+  .card-1 {
+    background: var(--Gold-500);
+    border-radius: 10px 10px 0 0;
+  }
+
+  .card-2 {
+    background: var(--Cyan-800);
+  }
+
+  .card-3 {
+    background: var(--Green-950);
+    border-radius: 0 0 10px 10px;
+  }
+
+}

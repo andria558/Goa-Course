@@ -1,0 +1,61 @@
+
+display: flex	კონტეინერი ხდება Flexbox, შიგნით ელემენტები თავისუფლად ლაგდება.
+
+flex-direction: row	ელემენტები განლაგებულია ჰორიზონტალურად (მარცხნიდან მარჯვნივ).
+
+flex-direction: row-reverse	ელემენტები ჰორიზონტალურად, მაგრამ უკუღმა (მარჯვნიდან მარცხნივ).
+
+flex-direction: column	ელემენტები ვერტიკალურად (ზედა → ქვედა).
+
+flex-direction: column-reverse	ელემენტები ვერტიკალურად უკუღმა (ქვედა → ზედა).
+
+justify-content: flex-start	ელემენტები იწყებენ განლაგებას მარცხენა მხარეს.
+
+justify-content: flex-end	ელემენტები გადადიან მარჯვენა მხარეს.
+
+justify-content: center	ელემენტები ცენტრში ჰორიზონტალურად.
+
+justify-content: space-between	პირველი ელემენტი მარცხნივ, ბოლო მარჯვნივ, სხვები თანაბრად შორის.
+
+justify-content: space-around	ელემენტებს შორის თანაბარი სივრცე, კიდეებზეც ნახევარისივრცე.
+
+justify-content: space-evenly	ყველა ელემენტს შორის და კიდეებზე თანაბარი სივრცე.
+
+align-items: flex-start	ელემენტები ზემოთ ვერტიკალურად.
+
+align-items: flex-end	ელემენტები ქვემოთ ვერტიკალურად.
+
+align-items: center	ელემენტები ცენტრში ვერტიკალურად.
+
+align-items: stretch	ელემენტები იწელება კონტეინერის სიმაღლეზე.
+
+align-items: baseline	ელემენტები ტექსტის ხაზის მიხედვით ერთ ხაზზე.
+
+flex-wrap: nowrap	ყველა ელემენტი ერთ ხაზზე, არ გადადის ქვემოთ.
+
+flex-wrap: wrap	ელემენტები გადადიან ახალ ხაზზე თუ ადგილი არ არის.
+
+flex-wrap: wrap-reverse	ელემენტები გადადიან ახალ ხაზზე უკუღმა მიმართულებით.
+
+align-content: flex-start	მრავალ ხაზიანი ელემენტები ზემოთ.
+
+align-content: flex-end	მრავალ ხაზიანი ელემენტები ქვემოთ.
+
+align-content: center	მრავალ ხაზიანი ელემენტები ცენტრში.
+
+align-content: space-between	ხაზები თანაბრად გადანაწილებულია ზემოდან ქვემდე.
+
+align-content: space-around	ხაზებს შორის თანაბარი სივრცე, კიდეებზე ნახევარი.
+
+align-content: space-evenly	ყველა ხაზს შორის და კიდეებზე თანაბარი სივრცე.
+
+flex-grow	ელემენტი იზრდება თავისუფალი სივრცის შესავსებად.
+
+flex-shrink	ელემენტი მცირდება როცა ადგილი არ არის საკმარისი.
+
+flex-basis	ელემენტის საწყისი ზომა (მაგ: 200px).
+order	ელემენტის.
+
+
+
+45 mins of writing ...

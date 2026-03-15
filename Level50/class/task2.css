@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    width: 85%;
+    height: 600px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: -5px 5px 30px gray;
+    background-color: white;
+}
+
+.box h1 {
+    margin-top: 15px;
+    margin-left: 580px;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div {
+    width: 70%;
+    margin-left: 30px;
+    background-color: rgb(230, 222, 222);
+    border-radius: 8px;
+    height: 65px;
+}
+
+div input {
+    margin-left: 10px;
+    margin-top: 15px;
+    background-color: rgb(230, 222, 222);
+    border: none;
+    width: 90%;
+    height: 30px;
+    outline: 0;
+}
+
+label {
+    margin-left: 10px;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.email {
+    width: 30%;
+}
+
+.phone {
+    width: 30%;
+    position: absolute;
+    right: 340px;
+    top: 242px;
+}
+
+.box div {
+    margin-left: 150px;
+}
+
+button {
+    position: absolute;
+    bottom: 120px;
+    left: 375px;
+    width: 50%;
+    height: 40px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.896);
+    border: none;
+    border-radius: 30px;
+    font-size: larger;
+
+}
