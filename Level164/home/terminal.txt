@@ -1,0 +1,73 @@
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course (main)
+$ pwd
+/c/Users/Temuri/Desktop/GOA-Course
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course (main)
+$ cd Level164
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level164 (main)
+$ cd home
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level164/home (main)
+$ mkdir .Project
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level164/home (main)
+$ cd .Project
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level164/home/.Project (main)
+$ mkdir src
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level164/home/.Project (main)
+$ pwd
+/c/Users/Temuri/Desktop/GOA-Course/Level164/home/.Project
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level164/home/.Project (main)
+$ cd src
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level164/home/.Project/src (main)
+$ pwd
+/c/Users/Temuri/Desktop/GOA-Course/Level164/home/.Project/src
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level164/home/.Project/src (main)
+$ touch app.js README.md .env
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level164/home/.Project/src (main)
+$ ls -t
+README.md  app.js
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level164/home/.Project/src (main)
+$ mv app.js ..
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level164/home/.Project/src (main)
+$ cd ..
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level164/home/.Project (main)
+$ cp app.js app_backup.js
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level164/home/.Project (main)
+$ ls -alt
+total 2
+drwxr-xr-x 1 Temuri 197121   0 Jul 20 15:09 ./
+-rw-r--r-- 1 Temuri 197121 124 Jul 20 15:09 app_backup.js
+-rw-r--r-- 1 Temuri 197121 124 Jul 20 15:09 app.js
+drwxr-xr-x 1 Temuri 197121   0 Jul 20 15:07 src/
+drwxr-xr-x 1 Temuri 197121   0 Jul 20 15:03 ../
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level164/home/.Project (main)
+$ cat src/.env
+env file was here
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level164/home/.Project (main)
+$ rm app_backup.js
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level164/home/.Project (main)
+$ cd src
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level164/home/.Project/src (main)
+$ cd ../..
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level164/home (main)
+$ rm -r .Project
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level164/home (main)
+$ 

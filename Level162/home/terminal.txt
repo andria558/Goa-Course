@@ -1,0 +1,79 @@
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course (main)
+$ pwd
+/c/Users/Temuri/Desktop/GOA-Course
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course (main)
+$ ls
+ create-task-file.js   Level018/         Level037/                Level056/   Level075/   Level094/   Level113/   Level132/   Level151/
+ Level000/             Level019/         Level038/                Level057/   Level076/   Level095/   Level114/   Level133/   Level152/
+ Level001/             Level020/         Level039/                Level058/   Level077/   Level096/   Level115/   Level134/   Level153/
+ Level002/             Level021/         Level040/                Level059/   Level078/   Level097/   Level116/   Level135/   Level154/
+ Level003/            'Level022(Css)'/   Level041/                Level060/   Level079/   Level098/   Level117/   Level136/   Level155/
+ Level004/             Level023/         Level042/                Level061/   Level080/   Level099/   Level118/   Level137/   Level156/
+ Level005/             Level024/         Level043/                Level062/   Level081/   Level100/   Level119/   Level138/   Level157/
+'Level006(HTML)'/      Level025/         Level044/                Level063/   Level082/   Level101/   Level120/   Level139/   Level158/
+ Level007/             Level026/         Level045/                Level064/   Level083/   Level102/   Level121/   Level140/   Level159/
+ Level008/             Level027/         Level046/                Level065/   Level084/   Level103/   Level122/   Level141/   Level160/
+ Level009/             Level028/         Level047/                Level066/   Level085/   Level104/   Level123/   Level142/   Level161/
+ Level010/             Level029/         Level048/                Level067/   Level086/   Level105/   Level124/   Level143/   Level162/
+ Level011/             Level030/         Level049/                Level068/   Level087/   Level106/   Level125/   Level144/   README.md
+ Level012/             Level031/         Level050/                Level069/   Level088/   Level107/   Level126/   Level145/
+ Level013/             Level032/         Level051/                Level070/   Level089/   Level108/   Level127/   Level146/
+ Level014/             Level033/         Level052/                Level071/   Level090/   Level109/   Level128/   Level147/
+ Level015/             Level034/        'Level053(javascript)'/   Level072/   Level091/   Level110/   Level129/   Level148/
+ Level016/             Level035/         Level054/                Level073/   Level092/   Level111/   Level130/   Level149/
+ Level017/             Level036/         Level055/                Level074/   Level093/   Level112/   Level131/   Level150/
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course (main)
+$ cd level162
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/level162 (main)
+$ ls
+class/  home/
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/level162 (main)
+$ cd home
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/level162/home (main)
+$ mkdir Projects
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/level162/home (main)
+$ cd Projects
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/level162/home/Projects (main)
+$ touch notes.txt
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/level162/home/Projects (main)
+$ cd ..
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/level162/home (main)
+$ mkdir Test
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/level162/home (main)
+$ mkdir Test/SubTest
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/level162/home (main)
+$ cd Test/SubTest
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/level162/home/Test/SubTest (main)
+$ cd ../..
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/level162/home (main)
+$ touch file1.txt file2.txt file3.txt
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/level162/home (main)
+$ cd Test
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/level162/home/Test (main)
+$ pwd
+/c/Users/Temuri/Desktop/GOA-Course/level162/home/Test
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/level162/home/Test (main)
+$ ls
+SubTest/
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/level162/home/Test (main)
+$ 
+
+clear /'

@@ -1,0 +1,334 @@
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level166/class/lingua-franca-project (main)
+$ cd 'c:/Users/Temuri/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca'
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca (main)
+$ pwd
+/c/Users/Temuri/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca (main)
+$ ls
+africa/  asia/  europe/  northamerica/  southamerica/  spanish.txt  todo/
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca (main)
+$ mkdir world
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca (main)
+$ touch world/expenato.txt
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca (main)
+$ ls -at
+world/  ./  ../  todo/  southamerica/  northamerica/  europe/  asia/  africa/  spanish.txt
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca (main)
+$ ls europe
+chinese.txt  english.txt  french.txt  german.txt  italian.txt  portuguese.txt  russian.txt
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca (main)
+$ mv europe/chinese.txt asia
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca (main)
+$ cp spanish.txt europe 
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca (main)
+$ cp spanish.txt northamerica 
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca (main)
+$ cp spanish.txt southamerica
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca (main)
+$ rm spanish.txt
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca (main)
+$ ls todo/*
+todo/africa:
+afrihili.txt
+
+todo/asia:
+bengali.txt  punjabi.txt
+
+todo/europe:
+yiddish.txt
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca (main)
+$ cp todo/europe/* europe
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca (main)
+$ cp todo/africa/* africa
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca (main)
+$ cp todo/asia/* asia
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca (main)
+$ rm -r todo/*
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca (main)
+$ ls asia/* > todo/asian_language_files.txt
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca (main)
+$ echo "Welkom by die Lingua Franca vertaaldienste." > africa/afrikaans.txt
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca (main)
+$  wc -l */*.txt | grep 0 > todo/empty_files.txt
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca (main)
+$ cat todo/empty_files.txt
+  0 africa/afrihili.txt
+  0 asia/bengali.txt
+  0 asia/chinese.txt
+  0 asia/hebrew.txt
+  0 asia/hindi.txt
+  0 asia/japanese.txt
+  0 asia/punjabi.txt
+  0 europe/french.txt
+  0 europe/german.txt
+  0 europe/italian.txt
+  0 europe/russian.txt
+  0 europe/spanish.txt
+  0 europe/yiddish.txt
+  0 northamerica/french.txt
+  0 northamerica/spanish.txt
+  0 southamerica/spanish.txt
+  0 world/expenato.txt
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca (main)
+$ sed -i 's/Lingua-Franca/Lingua Franca/g' */*.txt
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca (main)
+$ grep -Rl 'Lingua-Franca' */*.txt | wc -l
+0
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca (main)
+$ nano ~/.bash_profile
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca (main)
+$ source ~/.bash_profile
+Hello, Hola, Ni Hao, Bonjour, and Kon'nichiwa! Welcome to our translation services
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca (main)
+$ alias md="mkdir"
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca (main)
+$ alias d="date"
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca (main)
+$ alias hy="history"
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca (main)
+$ source ~/.bash_profile
+Hello, Hola, Ni Hao, Bonjour, and Kon'nichiwa! Welcome to our translation services
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca (main)
+$ md translations
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca (main)
+$ ls translations
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca (main)
+$ d
+Mon, Aug 17, 2026  9:09:51 PM
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca (main)
+$ hy
+    1  cd 'c:/Users/Temuri/Desktop/GOA-Course/Level166/class/lingua-franca-project'
+    2  pwd
+    3  ls
+    4  mkdir world
+    5  touch world/esperanto.txt
+    6  ls world
+    7  ls -alt
+    8  ls lingua-franca/europe
+    9* europe/chinese.txt asia
+   10  clear
+   11  cd 'c:/Users/Temuri/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca'
+   12  pwd
+   13  ls
+   14  mkdir world
+   15  touch world/expenato.txt
+   16  ls -at
+   17  ls europe
+   18  mv europe/chinese.txt asia
+   19  cp spanish.txt europe 
+   20  cp spanish.txt northamerica 
+   21  cp spanish.txt southamerica
+   22  rm spanish.txt
+   23  ls todo/*
+   24  cp todo/africa/* africa
+   25  cp todo/europe/* europe
+   26  cp todo/africa/* africa
+   27  cp todo/asia/* asia
+   28  rm -r todo/*
+   29  ls asia/* > todo/asian_language_files.txt
+   30  echo "Welkom by die Lingua Franca vertaaldienste." > africa/afrikaans.txt
+   31   wc -l */*.txt | grep 0 > todo/empty_files.txt
+   32  cat todo/empty_files.txt
+   33  sed -i 's/Lingua-Franca/Lingua Franca/g' */*.txt
+   34  grep -Rl 'Lingua-Franca' */*.txt | wc -l
+   35  nano ~/.bash_profile
+   36  source ~/.bash_profile
+   37  alias md="mkdir"
+   38  alias d="date"
+   39  alias hy="history"
+   40  source ~/.bash_profile
+   41  md translations
+   42  ls translations
+   43  d
+   44  hy
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca (main)
+$ export PS1="Lingua Franca > "
+Lingua Franca > source ~/.bash_profile
+Hello, Hola, Ni Hao, Bonjour, and Kon'nichiwa! Welcome to our translation services
+Lingua Franca > md script
+Lingua Franca > ls script
+Lingua Franca > d
+Mon, Aug 17, 2026  9:10:33 PM
+Lingua Franca > hy
+    1  cd 'c:/Users/Temuri/Desktop/GOA-Course/Level166/class/lingua-franca-project'
+    2  pwd
+    3  ls
+    4  mkdir world
+    5  touch world/esperanto.txt
+    6  ls world
+    7  ls -alt
+    8  ls lingua-franca/europe
+    9* europe/chinese.txt asia
+   10  clear
+   11  cd 'c:/Users/Temuri/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca'
+   12  pwd
+   13  ls
+   14  mkdir world
+   15  touch world/expenato.txt
+   16  ls -at
+   17  ls europe
+   18  mv europe/chinese.txt asia
+   19  cp spanish.txt europe 
+   20  cp spanish.txt northamerica 
+   21  cp spanish.txt southamerica
+   22  rm spanish.txt
+   23  ls todo/*
+   24  cp todo/africa/* africa
+   25  cp todo/europe/* europe
+   26  cp todo/africa/* africa
+   27  cp todo/asia/* asia
+   28  rm -r todo/*
+   29  ls asia/* > todo/asian_language_files.txt
+   30  echo "Welkom by die Lingua Franca vertaaldienste." > africa/afrikaans.txt
+   31   wc -l */*.txt | grep 0 > todo/empty_files.txt
+   32  cat todo/empty_files.txt
+   33  sed -i 's/Lingua-Franca/Lingua Franca/g' */*.txt
+   34  grep -Rl 'Lingua-Franca' */*.txt | wc -l
+   35  nano ~/.bash_profile
+   36  source ~/.bash_profile
+   37  alias md="mkdir"
+   38  alias d="date"
+   39  alias hy="history"
+   40  source ~/.bash_profile
+   41  md translations
+   42  ls translations
+   43  d
+   44  hy
+   45  export PS1="Lingua Franca > "
+   46  source ~/.bash_profile
+   47  md script
+   48  ls script
+   49  d
+   50  hy
+Lingua Franca > env
+ProgramFiles(x86)=C:\Program Files (x86)
+!::=::\
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+!C:=C:\Users\Temuri\AppData\Local\Programs\Microsoft VS Code
+SHELL=/usr/bin/bash
+NUMBER_OF_PROCESSORS=8
+FPS_BROWSER_USER_PROFILE_STRING=Default
+COLORTERM=truecolor
+PROCESSOR_LEVEL=6
+EFC_16556_2283032206=1
+VSCODE_DEBUGPY_ADAPTER_ENDPOINTS=c:\Users\Temuri\.vscode\extensions\ms-python.debugpy-2025.18.0-win32-x64\.noConfigDebugAdapterEndpoints\endpoint-120ce8e5da0819a9.txt
+TERM_PROGRAM_VERSION=1.133.0
+EFC_16556_1262719628=1
+MINGW_PREFIX=/mingw64
+PKG_CONFIG_PATH=/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig
+USERDOMAIN_ROAMINGPROFILE=DESKTOP-JG6A23G
+HOSTNAME=DESKTOP-JG6A23G
+PROGRAMFILES=C:\Program Files
+MSYSTEM=MINGW64
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+ORIGINAL_TEMP=/tmp
+MINGW_CHOST=x86_64-w64-mingw32
+OS=Windows_NT
+PYDEVD_DISABLE_FILE_VALIDATION=1
+HOMEDRIVE=C:
+MSYSTEM_CARCH=x86_64
+USERDOMAIN=DESKTOP-JG6A23G
+PWD=/c/Users/Temuri/Desktop/GOA-Course/Level166/class/lingua-franca-project/lingua-franca
+USERPROFILE=C:\Users\Temuri
+MANPATH=/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man
+EFC_16556_2775293581=1
+BUNDLED_DEBUGPY_PATH=c:\Users\Temuri\.vscode\extensions\ms-python.debugpy-2025.18.0-win32-x64\bundled\libs\debugpy
+VSCODE_GIT_ASKPASS_NODE=C:\Users\Temuri\AppData\Local\Programs\Microsoft VS Code\Code.exe
+MINGW_PACKAGE_PREFIX=mingw-w64-x86_64
+ALLUSERSPROFILE=C:\ProgramData
+ORIGINAL_PATH=/mingw64/bin:/usr/bin:/c/Users/Temuri/bin:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/c/Program Files/nodejs:/cmd:/c/Users/Temuri/AppData/Local/Programs/Python/Python313/Scripts:/c/Users/Temuri/AppData/Local/Programs/Python/Python313:/c/Users/Temuri/AppData/Local/Microsoft/WindowsApps:/c/Users/Temuri/AppData/Local/Programs/Microsoft VS Code/bin:/c/Users/Temuri/AppData/Roaming/npm:/c/Windows/SysWOW64:/c/Users/Temuri/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts
+CommonProgramW6432=C:\Program Files\Common Files
+HOME=/c/Users/Temuri
+USERNAME=Temuri
+SSH_ASKPASS=/mingw64/bin/git-askpass.exe
+LANG=en_US.UTF-8
+PLINK_PROTOCOL=ssh
+OneDrive=C:\Users\Temuri\OneDrive
+PYTHONSTARTUP=c:\Users\Temuri\AppData\Roaming\Code\User\workspaceStorage\b4d950efd8661ae297752471e5176fb7\ms-python.python\pythonrc.py
+EFC_16556_4126798990=1
+COMSPEC=C:\WINDOWS\system32\cmd.exe
+TMPDIR=/tmp
+GIT_ASKPASS=c:\Users\Temuri\AppData\Roaming\Code\User\globalStorage\vscode.git\askpass\70789581cae28aa7\askpass.sh
+APPDATA=C:\Users\Temuri\AppData\Roaming
+SYSTEMROOT=C:\WINDOWS
+LOCALAPPDATA=C:\Users\Temuri\AppData\Local
+__COMPAT_LAYER=DetectorsAppHealth
+COMPUTERNAME=DESKTOP-JG6A23G
+INFOPATH=/mingw64/local/info:/mingw64/share/info:/usr/local/info:/usr/share/info:/usr/info:/share/info
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+VSCODE_PYTHON_AUTOACTIVATE_GUARD=1
+TERM=xterm-256color
+PYTHON_BASIC_REPL=1
+LOGONSERVER=\\DESKTOP-JG6A23G
+ZES_ENABLE_SYSMAN=1
+ACLOCAL_PATH=/mingw64/share/aclocal:/usr/share/aclocal
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+EFC_16556_1592913036=1
+VSCODE_GIT_IPC_HANDLE=\\.\pipe\vscode-git-0e45af67b4-sock
+TEMP=/tmp
+MSYSTEM_CHOST=x86_64-w64-mingw32
+DISPLAY=needs-to-be-defined
+ORIGINAL_TMP=/tmp
+SHLVL=1
+PROCESSOR_REVISION=8c01
+DriverData=C:\Windows\System32\Drivers\DriverData
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+EXEPATH=C:\Program Files\Git\bin
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+SESSIONNAME=Console
+PS1=\[\]Lingua Franca > \[\]
+PKG_CONFIG_SYSTEM_LIBRARY_PATH=/mingw64/lib
+VSCODE_GIT_ASKPASS_MAIN=c:\Users\Temuri\AppData\Roaming\Code\User\globalStorage\vscode.git\askpass\70789581cae28aa7\askpass-main.js
+CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_5428_LXUOGKLHMXQJFASF
+HOMEPATH=\Users\Temuri
+TMP=/tmp
+CONFIG_SITE=/etc/config.site
+PATH=/c/Users/Temuri/bin:/mingw64/bin:/usr/local/bin:/usr/bin:/bin:/mingw64/bin:/usr/bin:/c/Users/Temuri/bin:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/c/Program Files/nodejs:/cmd:/c/Users/Temuri/AppData/Local/Programs/Python/Python313/Scripts:/c/Users/Temuri/AppData/Local/Programs/Python/Python313:/c/Users/Temuri/AppData/Local/Microsoft/WindowsApps:/c/Users/Temuri/AppData/Local/Programs/Microsoft VS Code/bin:/c/Users/Temuri/AppData/Roaming/npm:/c/Windows/SysWOW64:/c/Users/Temuri/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts:/usr/bin/vendor_perl:/usr/bin/core_perl
+ProgramW6432=C:\Program Files
+MSYSTEM_PREFIX=/mingw64
+EFC_16556_3789132940=1
+WINDIR=C:\WINDOWS
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+PROCESSOR_ARCHITECTURE=AMD64
+PUBLIC=C:\Users\Public
+PKG_CONFIG_SYSTEM_INCLUDE_PATH=/mingw64/include
+SYSTEMDRIVE=C:
+OLDPWD=/c/Users/Temuri/Desktop/GOA-Course/Level166/class/lingua-franca-project
+TERM_PROGRAM=vscode
+ProgramData=C:\ProgramData
+_=/usr/bin/env
+Lingua Franca > 

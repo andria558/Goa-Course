@@ -1,0 +1,118 @@
+Temuri@DESKTOP-JG6A23G:~/Desktop/GOA-Course/Level167/home$ cd 'c:/Users/Temuri/Desktop/GOA-Course/Level166/home'
+Temuri@DESKTOP-JG6A23G:~/Desktop/GOA-Course/Level166/home$ printenv
+ProgramFiles(x86)=C:\Program Files (x86)
+!::=::\
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+!C:=C:\Users\Temuri\AppData\Local\Programs\Microsoft VS Code
+SHELL=/usr/bin/bash
+NUMBER_OF_PROCESSORS=8
+COLORTERM=truecolor
+PROCESSOR_LEVEL=6
+VSCODE_DEBUGPY_ADAPTER_ENDPOINTS=c:\Users\Temuri\.vscode\extensions\ms-python.debugpy-2025.18.0-win32-x64\.noConfigDebugAdapterEndpoints\endpoint-120ce8e5da0819a9.txt
+TERM_PROGRAM_VERSION=1.133.0
+MINGW_PREFIX=/mingw64
+PKG_CONFIG_PATH=/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig
+USERDOMAIN_ROAMINGPROFILE=DESKTOP-JG6A23G
+HOSTNAME=DESKTOP-JG6A23G
+PROGRAMFILES=C:\Program Files
+MSYSTEM=MINGW64
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+ORIGINAL_TEMP=/tmp
+MINGW_CHOST=x86_64-w64-mingw32
+OS=Windows_NT
+PYDEVD_DISABLE_FILE_VALIDATION=1
+HOMEDRIVE=C:
+MSYSTEM_CARCH=x86_64
+USERDOMAIN=DESKTOP-JG6A23G
+PWD=/c/Users/Temuri/Desktop/GOA-Course/Level166/home
+USERPROFILE=C:\Users\Temuri
+MANPATH=/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man
+BUNDLED_DEBUGPY_PATH=c:\Users\Temuri\.vscode\extensions\ms-python.debugpy-2025.18.0-win32-x64\bundled\libs\debugpy
+MY_PROJECT=Web-App
+VSCODE_GIT_ASKPASS_NODE=C:\Users\Temuri\AppData\Local\Programs\Microsoft VS Code\Code.exe
+MINGW_PACKAGE_PREFIX=mingw-w64-x86_64
+ALLUSERSPROFILE=C:\ProgramData
+ORIGINAL_PATH=/mingw64/bin:/usr/bin:/c/Users/Temuri/bin:/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/c/Program Files/nodejs:/cmd:/c/Users/Temuri/AppData/Local/Programs/Python/Python313/Scripts:/c/Users/Temuri/AppData/Local/Programs/Python/Python313:/c/Users/Temuri/AppData/Local/Microsoft/WindowsApps:/c/Users/Temuri/AppData/Local/Programs/Microsoft VS Code/bin:/c/Users/Temuri/AppData/Roaming/npm:/c/Windows/SysWOW64:/c/Users/Temuri/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts
+CommonProgramW6432=C:\Program Files\Common Files
+HOME=/c/Users/Temuri
+USERNAME=Temuri
+SSH_ASKPASS=/mingw64/bin/git-askpass.exe
+LANG=en_US.UTF-8
+PLINK_PROTOCOL=ssh
+OneDrive=C:\Users\Temuri\OneDrive
+PYTHONSTARTUP=c:\Users\Temuri\AppData\Roaming\Code\User\workspaceStorage\b4d950efd8661ae297752471e5176fb7\ms-python.python\pythonrc.py
+COMSPEC=C:\WINDOWS\system32\cmd.exe
+TMPDIR=/tmp
+GIT_ASKPASS=c:\Users\Temuri\AppData\Roaming\Code\User\globalStorage\vscode.git\askpass\70789581cae28aa7\askpass.sh
+APPDATA=C:\Users\Temuri\AppData\Roaming
+SYSTEMROOT=C:\WINDOWS
+LOCALAPPDATA=C:\Users\Temuri\AppData\Local
+EFC_12996_1592913036=1
+COMPUTERNAME=DESKTOP-JG6A23G
+INFOPATH=/mingw64/local/info:/mingw64/share/info:/usr/local/info:/usr/share/info:/usr/info:/share/info
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+VSCODE_PYTHON_AUTOACTIVATE_GUARD=1
+TERM=xterm-256color
+PYTHON_BASIC_REPL=1
+LOGONSERVER=\\DESKTOP-JG6A23G
+ZES_ENABLE_SYSMAN=1
+ACLOCAL_PATH=/mingw64/share/aclocal:/usr/share/aclocal
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+VSCODE_GIT_IPC_HANDLE=\\.\pipe\vscode-git-0e45af67b4-sock
+TEMP=/tmp
+MSYSTEM_CHOST=x86_64-w64-mingw32
+DISPLAY=needs-to-be-defined
+ORIGINAL_TMP=/tmp
+SHLVL=1
+PROCESSOR_REVISION=8c01
+DriverData=C:\Windows\System32\Drivers\DriverData
+EFC_12996_4126798990=1
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+EXEPATH=C:\Program Files\Git\bin
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+SESSIONNAME=Console
+PS1=\[\]\u@\h:\w$ \[\]
+PKG_CONFIG_SYSTEM_LIBRARY_PATH=/mingw64/lib
+VSCODE_GIT_ASKPASS_MAIN=c:\Users\Temuri\AppData\Roaming\Code\User\globalStorage\vscode.git\askpass\70789581cae28aa7\askpass-main.js
+CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_9132_IRITZDANXXQXXYAL
+HOMEPATH=\Users\Temuri
+TMP=/tmp
+CONFIG_SITE=/etc/config.site
+PATH=/c/Users/Temuri/bin:/mingw64/bin:/usr/local/bin:/usr/bin:/bin:/mingw64/bin:/usr/bin:/c/Users/Temuri/bin:/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/c/Program Files/nodejs:/cmd:/c/Users/Temuri/AppData/Local/Programs/Python/Python313/Scripts:/c/Users/Temuri/AppData/Local/Programs/Python/Python313:/c/Users/Temuri/AppData/Local/Microsoft/WindowsApps:/c/Users/Temuri/AppData/Local/Programs/Microsoft VS Code/bin:/c/Users/Temuri/AppData/Roaming/npm:/c/Windows/SysWOW64:/c/Users/Temuri/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts:/usr/bin/vendor_perl:/usr/bin/core_perl:/c/Users/Temuri/bin
+ProgramW6432=C:\Program Files
+MSYSTEM_PREFIX=/mingw64
+EFC_12996_344590478=1
+WINDIR=C:\WINDOWS
+PROCESSOR_ARCHITECTURE=AMD64
+PUBLIC=C:\Users\Public
+PKG_CONFIG_SYSTEM_INCLUDE_PATH=/mingw64/include
+SYSTEMDRIVE=C:
+OLDPWD=/c/Users/Temuri/Desktop/GOA-Course/Level167/home
+TERM_PROGRAM=vscode
+ProgramData=C:\ProgramData
+_=/usr/bin/printenv
+Temuri@DESKTOP-JG6A23G:~/Desktop/GOA-Course/Level166/home$ echo $HOME
+/c/Users/Temuri
+Temuri@DESKTOP-JG6A23G:~/Desktop/GOA-Course/Level166/home$ echo $PATH
+/c/Users/Temuri/bin:/mingw64/bin:/usr/local/bin:/usr/bin:/bin:/mingw64/bin:/usr/bin:/c/Users/Temuri/bin:/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/c/Program Files/nodejs:/cmd:/c/Users/Temuri/AppData/Local/Programs/Python/Python313/Scripts:/c/Users/Temuri/AppData/Local/Programs/Python/Python313:/c/Users/Temuri/AppData/Local/Microsoft/WindowsApps:/c/Users/Temuri/AppData/Local/Programs/Microsoft VS Code/bin:/c/Users/Temuri/AppData/Roaming/npm:/c/Windows/SysWOW64:/c/Users/Temuri/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts:/usr/bin/vendor_perl:/usr/bin/core_perl:/c/Users/Temuri/bin
+Temuri@DESKTOP-JG6A23G:~/Desktop/GOA-Course/Level166/home$ nano ~/.bash_profile
+Temuri@DESKTOP-JG6A23G:~/Desktop/GOA-Course/Level166/home$ source ~/.bash_profile
+Hello, Hola, Ni Hao, Bonjour, and Kon'nichiwa! Welcome to our translation services
+Temuri@DESKTOP-JG6A23G:~/Desktop/GOA-Course/Level166/home$ export MY_PROJECT="Web-App"
+echo $MY_PROJECT
+Web-App
+Temuri@DESKTOP-JG6A23G:~/Desktop/GOA-Course/Level166/home$ c
+Temuri@DESKTOP-JG6A23G:~/Desktop/GOA-Course/Level166/home$ export PATH="$PATH:$HOME/bin"
+Temuri@DESKTOP-JG6A23G:~/Desktop/GOA-Course/Level166/home$ nano ~/.bash_profile
+Temuri@DESKTOP-JG6A23G:~/Desktop/GOA-Course/Level166/home$ source ~/.bash_profile
+Hello, Hola, Ni Hao, Bonjour, and Kon'nichiwa! Welcome to our translation services
+Temuri@DESKTOP-JG6A23G:~/Desktop/GOA-Course/Level166/home$ 
+
+
+
+
+
+
+
+
+

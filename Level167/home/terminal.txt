@@ -1,0 +1,19 @@
+Temuri@DESKTOP-JG6A23G:~/Desktop/GOA-Course/Level167/home$ echo "John" > customers.txt
+Temuri@DESKTOP-JG6A23G:~/Desktop/GOA-Course/Level167/home$ echo "Alice" >> customers.txt
+Temuri@DESKTOP-JG6A23G:~/Desktop/GOA-Course/Level167/home$ cat < customers.txt
+John
+Alice
+Temuri@DESKTOP-JG6A23G:~/Desktop/GOA-Course/Level167/home$ sort names.txt > sorted_names.txt
+Temuri@DESKTOP-JG6A23G:~/Desktop/GOA-Course/Level167/home$ 
+Temuri@DESKTOP-JG6A23G:~/Desktop/GOA-Course/Level167/home$ uniq names.txt
+saba
+Temuri@DESKTOP-JG6A23G:~/Desktop/GOA-Course/Level167/home$ sort names.txt | uniq
+saba
+Temuri@DESKTOP-JG6A23G:~/Desktop/GOA-Course/Level167/home$ grep "ERROR" log.txt
+Temuri@DESKTOP-JG6A23G:~/Desktop/GOA-Course/Level167/home$ grep "WARNING" log.txt | wc -l
+0
+Temuri@DESKTOP-JG6A23G:~/Desktop/GOA-Course/Level167/home$ sed -i 's/localhost/127.0.0.1/g' config.txt
+sed: can't read config.txt: No such file or directory
+Temuri@DESKTOP-JG6A23G:~/Desktop/GOA-Course/Level167/home$ grep "Active" data.csv | sort | uniq > filtered_data.txt
+grep: data.csv: No such file or directory
+Temuri@DESKTOP-JG6A23G:~/Desktop/GOA-Course/Level167/home$ 

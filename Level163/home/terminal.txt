@@ -1,0 +1,85 @@
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level163/home (main)
+$ mkdir Backup
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level163/home (main)
+$ cd Backup
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level163/home/Backup (main)
+$ touch report.tx
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level163/home/Backup (main)
+$ touch report.txt
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level163/home/Backup (main)
+$ mv report.tx report.txt
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level163/home/Backup (main)
+$ cp report.txt report_copy.txt
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level163/home/Backup (main)
+$ ls -alt
+total 2
+drwxr-xr-x 1 Temuri 197121  0 Jul 20 00:41 ./
+-rw-r--r-- 1 Temuri 197121 10 Jul 20 00:41 report_copy.txt
+-rw-r--r-- 1 Temuri 197121 10 Jul 20 00:40 report.txt
+drwxr-xr-x 1 Temuri 197121  0 Jul 20 00:37 ../
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level163/home/Backup (main)
+$ touch .hidden_config
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level163/home/Backup (main)
+$ ls
+report.txt  report_copy.txt
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level163/home/Backup (main)
+$ ls -a
+./  ../  .hidden_config  report.txt  report_copy.txt
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level163/home/Backup (main)
+$ touch report.txt
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level163/home/Backup (main)
+$ ls -t
+report.txt  report_copy.txt
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level163/home/Backup (main)
+$ cd ../..
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level163 (main)
+$ pwd
+/c/Users/Temuri/Desktop/GOA-Course/Level163
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level163 (main)
+$ cat home/Backup/report.txt
+report 404
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level163 (main)
+$ ls *.txt
+ls: cannot access '*.txt': No such file or directory
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level163 (main)
+$ cd home
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level163/home (main)
+$ ls *.txt
+terminal.txt
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level163/home (main)
+$ touch image1.png image2.png photo.jpg
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level163/home (main)
+$ mkdir gallery
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level163/home (main)
+$ cp *.png gallery
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level163/home (main)
+$ ls doc* -alt
+ls: cannot access 'doc*': No such file or directory
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level163/home (main)
+$ cat backup*
+cat: 'backup*': No such file or directory
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level163/home (main)
+$ 
