@@ -1,0 +1,19 @@
+                    MERN Stack vs. Other Stacks: A Comparative Analysis
+
+
+ სწორი პროგრამის არჩევა მნიშვნელოვანია დიდი და კომპლეხსური პროექტების ასაწყობად ერთ ერტი ცნობილი ტექნოლოგიებია MERN stack( MongoDB, Express.js, React.js, and Node.js), Lamp stack და Ruby on Rails.
+
+                   Introduction to Technology Stacks
+ Technology stack არის ერთიანობა პროგრამირების ენების, ედიტორებია და სხვადასხვა ბიბლიოთეკების.
+
+                   Understanding the MERN Stack
+
+ MongoDB: A NoSQL database that offers flexibility and scalability, particularly suitable for handling unstructured data and real-time applications.
+ 
+ Express.js: A minimalist and flexible Node.js web application framework that simplifies server-side development with features like middleware and routing.
+
+ React.js: A powerful front-end library for building user interfaces with component-based architecture, virtual DOM, and state management.
+ 
+ Node.js: A server-side JavaScript runtime environment that allows developers to build scalable and event-driven applications.
+
+ 

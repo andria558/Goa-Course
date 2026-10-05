@@ -1,0 +1,30 @@
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level171/class (main)
+$ cd 'c:/Users/Temuri/Desktop/GOA-Course/Level171/home'
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level171/home (main)
+$ node app.js
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level171/home (main)
+$ node
+Welcome to Node.js v22.19.0.
+Type ".help" for more information.
+> let password = "kupree"
+undefined
+> if (password === "kupree") {console.log("correct")} else {console.log("incorrect")}
+correct
+undefined
+> let x = 10;
+undefined
+> x
+10
+> x - 50 +34
+-6
+> password + "9975"
+'kupree9975'
+> password = kupre
+Uncaught ReferenceError: kupre is not defined
+> password = "kupre"
+'kupre'
+> if (password === "kupree") {console.log("correct")} else {console.log("incorrect")}
+incorrect
+undefined

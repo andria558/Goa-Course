@@ -1,0 +1,25 @@
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level171/class (main)
+$ node test.js
+Node მუშაობს!
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level171/class (main)
+$ node
+Welcome to Node.js v22.19.0.
+Type ".help" for more information.
+> let x = 50;
+undefined
+> x*2
+100
+> "hello".toUpperCase()
+'HELLO'
+>
+(To exit, press Ctrl+C again or Ctrl+D or type .exit)
+>
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level171/class (main)
+$ node app.js
+55
+
+Temuri@DESKTOP-JG6A23G MINGW64 ~/Desktop/GOA-Course/Level171/class (main)
+$ 
