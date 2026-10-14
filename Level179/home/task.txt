@@ -1,0 +1,5 @@
+const router = express.Router();
+
+// უნდა დავამატოთ ექსპორტი V
+
+export default router;
